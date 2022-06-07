@@ -67,22 +67,31 @@
   <br />
 
   <div class="container">
+    <div class="row bg-Titulo rounded">
+      <div class="col-md-12 col-xs-12 text-black">
+        <h1>Envianos un mensaje y nos contactaremos contigo</h1>
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-6 col-xs-12 p-3 text-secondary text-white">
-        <form action="#">
-          <div>
+        <br>
+        <div>
+
+        </div>
+        <form action="#" class="formularioContainer">
+          <div class="form-group">
             <label for="#">Nombre Completo:</label>
-            <input type="text " required />
+            <input type="text " required class="form-control" />
           </div>
           <br />
-          <div>
+          <div class="form-group">
             <label for="#">Email:</label>
-            <input type="email" required />
+            <input type="email" class="form-control" required />
           </div>
           <br />
-          <div>
+          <div class="form-group">
             <label for="#">Selecciona su pais de procedencia</label>
-            <select name="" id="">
+            <select name="" id="" class="form-control">
               <option value="0" selected disabled>Seleccionar...</option>
               <option value="Argentina">Argentina</option>
               <option value="Brazil">Chile</option>
@@ -91,15 +100,21 @@
             </select>
           </div>
           <br />
-          <div>
+          <div class="form-group">
             <label for="">Mensaje</label>
-            <textarea name="" class="border border-warning rounded" cols="30" rows="10" required></textarea>
+            <textarea name="" class="form-control" class="border border-warning rounded" cols="30" rows="10"
+              required></textarea>
           </div>
-          <button>Enviar</button>
+          <br>
+          <div class="form-group">
+            <button type="submit" class="btn btn-danger">Cancelar</button>
+            <button type="submit" class="btn btn-warning">Enviar</button>
+
+          </div>
         </form>
       </div>
 
-      <div class="col-md-6 col-xs-12 p-3">
+      <div class="containerMapa col-md-6 col-xs-12 p-3">
         <figure class="figure">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14244.466749156196!2d-65.27820647065268!3d-26.80441293078774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d2441ee7e8d%3A0x33ceab99567dc7f4!2sAv.%20Juan%20Domingo%20Per%C3%B3n%20500%2C%20Yerba%20Buena%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1652297991442!5m2!1ses-419!2sar"
@@ -125,7 +140,7 @@
   <footer class="footer">
     <div class="contenedor">
       <div>
-        <a href="index.html" title="Home"><img src="/imag/logo/logo negro.jpg" alt="Logo" width="100" /></a>
+        <a href="index.html" title="Home"><img src="./imag/logo/logo negro.jpg" alt="Logo" width="100" /></a>
       </div>
 
       <div class="socials">

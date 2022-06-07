@@ -19,6 +19,24 @@ body {
    
 }
 
+.formularioContainer{
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgba(120, 119, 123, 0.3);
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
+}
+.containerMapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-Titulo{
+    background-color: rgb(84,31,20);
+    border-radius: 2px;
+}
+
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
