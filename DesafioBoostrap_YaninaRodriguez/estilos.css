@@ -6,9 +6,20 @@ body {
     background-size: 100%;
 }
 
+.navBarNew a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+    text-align: right;
 
+}
+.navBarNew{
+    display: flex;
+   
+}
 
-.formularioContainer {
+.formularioContainer{
     max-width: 25em;
     padding: 1.3em;
     margin: 0 auto;
@@ -16,94 +27,16 @@ body {
     border-radius: 0.5em;
     box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
 }
-
-/* .containerMapa {
+.containerMapa{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
-
-.bg-Titulo {
-    background-color: rgb(84, 31, 20);
+}
+.bg-Titulo{
+    background-color: rgb(84,31,20);
     border-radius: 2px;
 }
-.effectHover ul li::before{
-  
-        content: "";
-        height: 3px;
-        width: 0%;
-        background: yellow;
-        position: absolute;
-        left: 0;
-        bottom: -12px;
-        transition: 0.5s ease-out;
-     
-}
-.effectHover ul li:hover:before{
 
-    width: 100%;
-}
-
-.gridPresentacion {
-    display: grid;
-    grid-template-areas:
-        "imag section"
-        "imag section"
-    ;
-}
-
-.imagPresentacion {
-
-    padding: 15%;
-    grid-area: imag;
-}
-
-.titlePrincipal {
-    grid-area: section;
-}
-
-.titlePrincipal p{
-    padding: 5%;
-}
-
-#animacionImag {
-    cursor: pointer;
-    box-shadow: 1px 10px 25px;
-    rgba(0, 0, 0, 0.5);
-    border-radius: 6px;
-
-}
-#animacionImag :hover{
-    width: 150%;
-    height: 150%;
-   
-}
-
-#animacionImag :hover {
-    
-    filter: brightness(80%);
-}
-
-.gridImage {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-
-
-
-}
-
-.Prueba {
-    position: relative;
-    grid-column: 1/4;
-    grid-row: 1/4;
-}
-
-.centrarImagen {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    position: absolute;
-}
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
@@ -125,7 +58,7 @@ h1 {
 
 .alineacion {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     margin-top: -30;
 
 }
@@ -168,8 +101,7 @@ h1 {
 
 
 }
-
-#logoContenedor div a {
+#logoContenedor div a{
     color: #eeeeee;
 }
 
@@ -254,6 +186,9 @@ footer ol {
     /*margen a cada lado*/
 }
 
+/* nav ul ol {
+    display: inline-block;
+} */
 
 #redesSociales {
     text-align: left;
